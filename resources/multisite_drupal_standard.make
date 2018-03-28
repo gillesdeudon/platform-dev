@@ -606,6 +606,11 @@ projects[registration][version] = "1.6"
 projects[registry_autoload][subdir] = "contrib"
 projects[registry_autoload][version] = 1.3
 
+projects[registryonsteroids][type] = module
+projects[registryonsteroids][download][type] = git
+projects[registryonsteroids][download][url] = https://github.com/drupol/registryonsteroids.git
+projects[registryonsteroids][download][branch] = 92-submodule-code-cleanup-refactoring
+
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.10"
 ; #2851567 rules_init() and cache rebuilding are broken
@@ -827,6 +832,9 @@ projects[wysiwyg][download][version] = "2.4"
 ; https://webgate.ec.europa.eu/CITnet/jira/browse/NEXTEUROPA-9874
 projects[wysiwyg][patch][] = patches/wysiwyg-js-url-9874.patch
 
+projects[xautoload][subdir] = "contrib"
+projects[xautoload][version] = "5.7"
+
 projects[xml_field][subdir] = "contrib"
 projects[xml_field][version] = "2.2"
 
@@ -1034,7 +1042,9 @@ projects[ec_resp][download][url] = https://github.com/ec-europa/ec_resp.git
 projects[ec_resp][download][tag] = 2.3.6
 
 projects[atomium][type] = theme
-projects[atomium][version] = 2.7
+projects[atomium][download][type] = git
+projects[atomium][download][url] = https://github.com/ec-europa/atomium.git
+projects[atomium][download][branch] = nept-1889
 
 projects[ec_europa][type] = theme
 projects[ec_europa][download][type] = git

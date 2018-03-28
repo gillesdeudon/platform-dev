@@ -94,6 +94,9 @@ dependencies[] = fpa
 dependencies[] = flag
 dependencies[] = entityreference_prepopulate
 dependencies[] = username_enumeration_prevention
+dependencies[] = xautoload
+dependencies[] = registryonsteroids
+dependencies[] = registryonsteroids_alter
 
 dependencies[] = filefield_sources_plupload
 
