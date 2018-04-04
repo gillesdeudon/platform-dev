@@ -609,7 +609,7 @@ projects[registry_autoload][version] = 1.3
 projects[registryonsteroids][type] = module
 projects[registryonsteroids][download][type] = git
 projects[registryonsteroids][download][url] = https://github.com/drupol/registryonsteroids.git
-projects[registryonsteroids][download][branch] = 92-submodule-code-cleanup-refactoring
+projects[registryonsteroids][download][branch] = 7.x-1.x
 
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.10"
