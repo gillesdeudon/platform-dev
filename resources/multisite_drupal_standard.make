@@ -23,6 +23,9 @@ projects[advagg][version] = "2.30"
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.3"
 
+projects[alternatives][subdir] = "contrib"
+projects[alternatives][version] = "1.0-beta2"
+
 projects[apachesolr][subdir] = "contrib"
 projects[apachesolr][version] = "1.8"
 ; Issue #2178283 : Apache Solr doesn't invalidate its caches when inserting a new node type.
@@ -609,7 +612,7 @@ projects[registry_autoload][version] = 1.3
 projects[registryonsteroids][type] = module
 projects[registryonsteroids][download][type] = git
 projects[registryonsteroids][download][url] = https://github.com/drupol/registryonsteroids.git
-projects[registryonsteroids][download][branch] = 7.x-1.x
+projects[registryonsteroids][download][branch] = 7-x-1.x
 
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.10"
@@ -832,9 +835,6 @@ projects[wysiwyg][download][version] = "2.4"
 ; https://webgate.ec.europa.eu/CITnet/jira/browse/NEXTEUROPA-9874
 projects[wysiwyg][patch][] = patches/wysiwyg-js-url-9874.patch
 
-projects[xautoload][subdir] = "contrib"
-projects[xautoload][version] = "5.7"
-
 projects[xml_field][subdir] = "contrib"
 projects[xml_field][version] = "2.2"
 
@@ -1049,7 +1049,7 @@ projects[atomium][download][branch] = nept-1889
 projects[ec_europa][type] = theme
 projects[ec_europa][download][type] = git
 projects[ec_europa][download][url] = https://github.com/ec-europa/ec_europa.git
-projects[ec_europa][download][tag] = 0.0.10
+projects[ec_europa][download][branch] = nept-1889
 
 ; ==============
 ; Custom modules
