@@ -609,10 +609,11 @@ projects[registration][version] = "1.6"
 projects[registry_autoload][subdir] = "contrib"
 projects[registry_autoload][version] = 1.3
 
-projects[registryonsteroids][type] = module
-projects[registryonsteroids][download][type] = git
-projects[registryonsteroids][download][url] = https://github.com/drupol/registryonsteroids.git
-projects[registryonsteroids][download][branch] = 7-x-1.x
+projects[registryonsteroids][subdir] = "contrib"
+projects[registryonsteroids][version] = 1.0
+
+projects[xautoload][subdir] = "contrib"
+projects[xautoload][version] = 5.7
 
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.10"
